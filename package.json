@@ -1,0 +1,25 @@
+{
+  "name": "hulk-store-backend",
+  "version": "1.0.0",
+  "description": "Proyecto hulk store ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index"
+  },
+  "author": "Cesar Villegas",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "is-promise": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "nodemon": "^2.0.4"
+  }
+}
