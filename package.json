@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon index"
+    "server": "nodemon index",
+    "data:import": "node seeder/seeder",
+    "data:destroy": "node seeder/seeder -d"
   },
   "author": "Cesar Villegas",
   "license": "ISC",
