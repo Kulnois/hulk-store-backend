@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon index",
     "data:import": "node seeder/seeder",
-    "data:destroy": "node seeder/seeder -d"
+    "data:destroy": "node seeder/seeder -d",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
   },
   "author": "Cesar Villegas",
   "license": "ISC",
