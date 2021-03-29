@@ -1,19 +1,18 @@
-# [Hulk Store](https://kulnois.github.io/hulk-store-backend)
+# [Hulk Store](https://hulkstoreapp.herokuapp.com/api/)
 
 ![Product Gif](screenshots/hulk-store-backend.gif)
-
 Api Sitio Web Hulk Store.
 
 ### URL
 
-* [Product] /api/products
+* [Product](https://hulkstoreapp.herokuapp.com/api/products) /api/products
 * [Users] /api/users
 * [Ordes] /api/orders
 
-[Ver](https://kulnois.github.io/hulk-store-backend).
+[Ver](https://hulkstoreapp.herokuapp.com/api/).
 
 ### Recursos
-
+* [Frontend Hulk Store](https://github.com/Kulnois/hulk-store-web)
 * [Node](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
 * [Mongodb](https://mongoosejs.com/)
